@@ -395,7 +395,63 @@ header hr{
 }
 nav hr{
 	border: 0.5px solid #f2f2f2;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+.navText li{
+	float:left;
+}
+.navText li a{
+	padding: 8px 16px 6px;
+    font-size: 12px;
+    font-family: "Proxima Nova Lt", "Helvetica Neue", Verdana, Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    font-weight: 600;
+	text-decoration-line: none;
+	text-decoration-style: solid;
+	text-decoration-thickness: auto;
+	color: rgb(26, 26, 26);
+}
+.navText li a:hover{
+	color: lightgrey;
+}
+div.menu {
+	text-align: center;
+}
+ul.myUL {
+  display: inline-block;
+}
 
+
+th{
+	text-align: left;
+}
+tr:nth-child(even){
+	background-color: #f0f0f0;
+}
+tr:not(:first-child):hover {
+	table:;
+	background-color: #dbdbdb;
+	opacity: 1;
+
+}
+
+
+table.sizing{
+	width:100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th, td{
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+}
 </style>
 </head>
 
@@ -417,6 +473,27 @@ nav hr{
 	</div>
 <hr>
 </header>
+
+
+
+<nav>
+	<div class='menu navText'>
+		<ul class='myUL'>
+			<li><a href="#latest">LATEST</a></li>
+			<li><a href="#brands">BRANDS</a></li>
+			<li><a href="#clothing">CLOTHING</a></li>
+			<li><a href="#footwear">FOOTWEAR</a></li>
+			<li><a href="#accessories">ACCESSORIES</a></li>
+			<li><a href="#lifestyle">LIFESTYLE</a></li>
+			<li><a href="#gifts">GIFTS</a></li>
+			<li><a href="#sale" style="color: darkred;">SALE</a></li>
+			<li><a href="#launches">LAUNCHES</a></li>
+			<li><a href="#features">FEATURES</a></li>
+		</ul>
+	</div>
+<hr>
+</nav>
+
 
 
 
